@@ -4,5 +4,6 @@ def prime?(number)
     return true
   elsif number.negative?
     return false
-  end
+  else
+    return false
 end
