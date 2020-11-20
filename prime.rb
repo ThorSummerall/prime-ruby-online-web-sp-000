@@ -8,5 +8,3 @@ def prime?(number)
     return false
   end
 end
-
-prime?(-1)
