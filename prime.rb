@@ -1,9 +1,9 @@
-def prime?(number)
-  # first create an array of numbers to divide by
-  divisors = (2...number).to_a
-  # iterate over the array to check if prime
+
+
+def prime?(integer)
+  divisors = (2...integer).to_a
   divisors.each do |num|
-    if number % num == 0
+    if integer % num == 0
       return false
     else
       return true
